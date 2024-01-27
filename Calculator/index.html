@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <h2>Simple Calculator</h2>
+
+    <label for="operators">
+      Enter operator (+,-,* or /):
+      <input type="text" name="operator" class="operator" />
+    </label><br>
+    <label for="num1">
+      Enter first number:
+      <input type="number" name="num1" id="first__number" />
+    </label><br>
+    <label for="num2">
+      Enter second number:
+      <input type="number" name="num2" id="second__number" />
+    </label><br>
+    <button onclick="calculate()">Calculate</button>
+    
+    <p id="result"></p>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
